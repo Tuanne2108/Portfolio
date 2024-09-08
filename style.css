@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.avatar{
+    background-image: url('https://scontent.fsgn8-3.fna.fbcdn.net/v/t1.6435-9/83017818_1651046558408829_7767636766441340928_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=53a332&_nc_eui2=AeEtyrKh0HNc4KSSCoMrOPTz-pPiUNFBlTP6k-JQ0UGVM1fRWllyn7vfNTG32QKAEktr4pp9G9CW1YQBywrdpP2g&_nc_ohc=pGWRG2C_xlkQ7kNvgGDdAYd&_nc_ht=scontent.fsgn8-3.fna&_nc_gid=AZ0ZNFpwoXWCBey54nyVbQw&oh=00_AYD1ZpNPL5ChM7JybBC0OwW2NZqc0wxlgL69LaY5vfaTmQ&oe=670561A4');
+    width: 40%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+}
+.portfolio{
+    width: 60%;
+    float: right;
+    padding: 12px 24px;
+    box-sizing: border-box;
+}
+.introduce{
+    padding: 128px 16px;
+    text-align: center;
+}
+.introduce h1{
+    font-size: 64px;
+    font-weight: 500;
+}
+.introduce p{
+    font-size: 15px;
+}
+.image_portfolio{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 32px 0;
+}
+.image_portfolio h2, .about h2{
+    width: 100%;
+    font-size: 30px;
+    font-weight: 400;
+}
+.gallary_1,.gallary_2{
+    width: 50%;
+    padding: 0 8px;
+}
+.gallary_1 img, .gallary_2 img{
+    object-fit: cover;
+    width: 100%;
+    margin-bottom: 5px;
+}
+.about{
+    padding: 32px 0;
+}
+.about p{
+    font-size: 15px;
+    color: #757575;
+    line-height: 1.5;
+}
+.project{
+    display: flex;
+    background-color: #616161;
+    color: #fff;
+    padding: 16px 0;
+}
+.project div{
+    flex: 1;
+    text-align: center;
+    
+}

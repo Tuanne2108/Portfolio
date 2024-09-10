@@ -16,6 +16,7 @@ a {
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     position: fixed;
 }
 .portfolio {
@@ -100,6 +101,7 @@ a {
 .service-cards {
     display: flex;
     gap: 20px;
+    justify-content: space-around;
 }
 
 .service-card {
@@ -111,7 +113,7 @@ a {
     overflow: hidden;
     text-align: center;
     transition: transform 0.3s ease;
-}
+}   
 
 .service-card:hover {
     transform: translateY(-10px);
